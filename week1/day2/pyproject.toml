@@ -3,18 +3,8 @@ name = "day2"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "saksham-v25", email = "vishwakarmasaksham07@email.com" }
-]
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
-    "groq>=1.7.0",
-    "python-dotenv>=1.2.3",
+    "groq>=1.5.0",
+    "python-dotenv>=1.2.2",
 ]
-
-[project.scripts]
-day2 = "day2:main"
-
-[build-system]
-requires = ["uv_build>=0.12.19,<0.13.0"]
-build-backend = "uv_build"

@@ -6,8 +6,10 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
+# Virtual Environment
 .venv/
+**/.venv/
+
+# Environment Variables
 .env
-__pycache__/
-*.pyc
+**/.env

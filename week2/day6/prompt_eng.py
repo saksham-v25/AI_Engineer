@@ -10,7 +10,7 @@ if not my_api_key:
     raise ValueError("API key kaha hai bhai")
 
 client=Groq(api_key=my_api_key)
-model="openai/gpt-oss-120b"
+model="llama-3.3-70b-versatile"
 
 
 def llm_ans(prompt):
