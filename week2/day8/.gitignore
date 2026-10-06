@@ -1,0 +1,57 @@
+# API keys and environment variables
+
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+
+.venv/
+venv/
+env/
+
+# Python cache files
+
+**pycache**/
+*.py[cod]
+*.pyo
+
+# Secret and credential files
+
+secrets.*
+credentials.*
+*api_key*
+*apikey*
+
+# IDE settings
+
+.vscode/
+.idea/
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Test and coverage cache
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+notepad .gitignore
+
+
+# Local Git metadata backup
+week1/day1/day1-git-backup/
+
+# Personal resume documents
+week1/day5/resumes/src/resumes/
